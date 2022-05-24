@@ -17,7 +17,7 @@ supp_tab <- 'supplementary_table.xlsx'
 acmg <- c('ACTA2', 'ACTC1', 'APC', 'APOB', 'ATP7B', 'BMPR1A', 'BRCA1', 'BRCA2', 'CACNA1S', 'COL3A1', 'DSC2', 'DSG2', 'DSP', 'FBN1', 'GLA', 'KCNH2', 'KCNQ1', 'LDLR', 'LMNA', 'MEN1', 'MLH1', 'MSH2', 'MSH6', 'MUTYH', 'MYBPC3', 'MYH11', 'MYH7', 'MYL2', 'MYL3', 'NF2', 'OTC', 'PCSK9', 'PKP2', 'PMS2', 'PRKAG2', 'RB1', 'RET', 'RYR1', 'RYR2', 'SCN5A', 'SDHAF2', 'SDHB', 'SDHC', 'SDHD', 'SMAD3', 'SMAD4', 'STK11', 'TGFBR1', 'TGFBR2', 'TMEM43', 'TNNI3', 'TNNT2', 'TP53', 'TPM1', 'VHL', 'WT1')
 
 ### Information on genes: constraint, priors
-info <- read.xlsx(, sheet=8)
+info <- read.xlsx(supp_tab, sheet=8)
 
 ########################################################################
 ### Loading gene count tables
